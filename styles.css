@@ -150,3 +150,18 @@ i:hover{
     cursor:pointer;
 }
 
+/* contact me */
+
+.icon-box{
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+.icon-box .icon{
+    cursor: pointer;
+    font-size: 50px;
+    margin: 40px;
+}

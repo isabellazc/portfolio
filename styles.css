@@ -181,7 +181,9 @@ i:hover{
 }
 
 /* contact me */
-
+#contact {
+    flex-direction: column;
+}
 .icon-box{
     width: 100%;
     padding: 50px;
@@ -200,5 +202,9 @@ i:hover{
 @media (max-width: 800px) {
     .section-projects {
       flex-direction: column;
+    }
+
+    .icon-box .icon {
+        font-size: 30px;
     }
   }
